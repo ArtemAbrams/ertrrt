@@ -18,5 +18,9 @@ namespace WinFormsApp1
         {
             Console.WriteLine();
         }
+        public Ware(int x, int y)
+        {
+            Console.WriteLine(x + y);
+        }
     }
 }
